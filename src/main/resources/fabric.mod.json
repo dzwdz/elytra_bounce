@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "elytra_bounce",
+  "version": "${version}",
+  "name": "Elytra Bounce",
+  "description": "",
+  "authors": [
+    "dzwdz"
+  ],
+  "contact": {},
+  "license": "MPL-2.0",
+  "icon": "assets/elytra_bounce/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dzwdz.elytra_bounce.EntryPoint"
+    ]
+  },
+  "mixins": [
+    "elytra_bounce.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.2+build.206",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
