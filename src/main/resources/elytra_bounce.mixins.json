@@ -4,8 +4,7 @@
   "package": "dzwdz.elytra_bounce.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "LivingEntityMixin",
-    "EntityAccessor"
+    "LivingEntityMixin"
   ],
   "client": [
   ],
