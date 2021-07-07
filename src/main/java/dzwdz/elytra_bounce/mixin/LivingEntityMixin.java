@@ -14,7 +14,7 @@ public abstract class LivingEntityMixin {
     public void travel(LivingEntity entity, int idx, boolean val) { }
 
 
-    @Redirect(method = "Lnet/minecraft/entity/LivingEntity;initAi()V",
+    @Redirect(method = "tickFallFlying",
             at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/LivingEntity;setFlag(IZ)V"))
     public void initAi(LivingEntity entity, int idx, boolean val) {
         if (entity.getVelocity().y == 0) {
