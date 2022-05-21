@@ -7,7 +7,10 @@ sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
 archivesBaseName = project.archives_base_name
-version = "${project.mod_version}+${project.minecraft_version}"
+/* Ex : 0.1.1+1.16.1
+version = "${project.mod_version}+${project.minecraft_version}" */
+// Ex : 0.1.1
+version = "${project.mod_version}"
 group = project.maven_group
 
 dependencies {
